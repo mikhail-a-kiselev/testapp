@@ -154,7 +154,7 @@ function App() {
           { table.results.map((item) => {return <tr key={item.id}>
             <td>{item.fio}</td>
             <td>{item.dob}</td>
-            <td><img alt="item.fio" src={"https://kiselev.su/test/dme/"+item.photo} width="64" height="48"></img></td>
+            <td><img alt={item.fio} src={"https://kiselev.su/test/dme/"+item.photo} width="64" height="48"></img></td>
           </tr>}) }
         </tbody>
       </Table>
